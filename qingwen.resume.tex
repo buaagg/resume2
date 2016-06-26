@@ -1,0 +1,128 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
+\newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
+\newcommand{\CS}{C\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\scriptsize\bf{\#}}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{\textit{Compiled by \XeLaTeX{}}}
+\fancyfoot[R]{Last Modified: \today}
+\fancyfoot[C]{}
+\fancyhead{}
+
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Qingwen GUAN}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in email address
+\contactInfo{qingwen.guan@outlook.com}{(+86) 134 0115 7995}{http://lnked.in/qingwen}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+%\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
+
+% Experiences表示经历可数，经验不可数
+\section{\faUsers\ Long-term Experiences}
+\datedsubsection{\textbf{Didi Dache (Xiaojukeji Inc.)} Beijing, China}{2016 -- Present}
+\role{Research and Develop Engineer of DiDi Research}{Manager: Jieping YE}
+I am in the Dispatch Feature Team, 
+working on voice broadcast recommendations, heatmap, data virtualization, and so on.
+
+\datedsubsection{\textbf{Microsoft Inc.} Beijing, China}{2013 -- 2015 (2 yrs)}
+\role{Intern of Microsoft Research Asia}{Mentors: Yasuyuki Matsushita, Ambrosio Blanco, \ldots}
+I have been working on multiple projects, 
+such as Document Rectification, Text Detection, Click Through Rate Prediction, Talking and Dancing Robot.
+
+\section{\faUser\ Short-term Experiences}
+
+\datedsubsection{\textbf{Google Inc.} London, United Kingdom}{Nov.\,2015 -- Jan.\,2016 (3 mos)}
+I was in the AGSA team, fixing bugs and refactoring code for the Android App of Google Now.
+
+\datedsubsection{\textbf{Toutiao (Bytedance Inc.)} Beijing, China}{Jul.\,2015 -- Nov.\,2015 (4 mos)}
+I was in the internationalization team, building the recommendation system module from scratch. 
+
+\datedsubsection{\textbf{J.P. Morgan Chase} Beijing, China}{Jun.\,2014 -- Oct.\,2014 (3 mos)}
+I was in the Quantitative Research team, refactoring code and processing data for internal usage.
+
+\section{\faGraduationCap\ Educations}
+\datedsubsection{\textbf{Beihang University (BUAA)}, Beijing, China}{2012 -- 2015 (3 yrs)}
+\textit{Master} in Software Engineering.
+
+\datedsubsection{\textbf{Beihang University (BUAA)}, Beijing, China}{2008 -- 2012 (4 yrs)}
+\textit{Bachelor} in Software Engineering and Applied Mathematics(minor). 
+\begin{itemize}
+  \item High Scored Courses: \CC{}(100), Algorithm(99), Advanced Math(99), Linear Algebra(99), \ldots
+  \item I was recommended as postgraduate candidate exempted from GRE (Graduate Record Examination).
+\end{itemize}
+
+
+\section{\faHeartO\ Honors and Awards}
+\begin{itemize}[parsep=0.5ex]
+  \item \datedline{ACM ICPC World Finals, \textit{\nth{27} Place}}{2013}
+  \item \datedline{ACM ICPC Asia Regionals, \textit{\nth{5} Place, Gold Medal}}{2012}
+  \item \datedline{Google Code Jam, \textit{Top 500}}{2013}
+  \item \datedline{Facebook Hacker Cup, \textit{Top 500}}{2014}
+  \item \datedline{Microsoft Beauty of Programming National Invition Contest, \textit{Top 30}}{2013}
+  \item \datedline{Tencent Scholarship, \textit{2 out of 141}}{2010}
+  \item \datedline{Outstanding Student Leader, \textit{6 out of 141}}{2008 -- 2009}
+  \item \datedline{Outstanding Academic Performance Scholarship, \textit{12 out of 141}}{2008 -- 2009}
+  %\item \datedline{Beihang Sanguosha 3v3 Match, \textit{\nth{3} Place}}{2013}
+\end{itemize}
+
+% \section{\faUsers\ Experience}
+% \datedsubsection{\textbf{FLAG Inc.} California, America}{2012 -- Present}
+% \role{Summer Intern}{Manager: xxx}
+% Brief introduction: xxx.
+% \begin{itemize}
+%   \item Implemented xxx feature
+%   \item Optimized xxx 5\%
+%   \item xxx
+% \end{itemize}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ Skills \& Miscellaneous}
+\begin{itemize}[parsep=0.5ex]
+  \item Programming Languages: \CC{} $>$ English $>$ Python2 
+          	$>$ Java $>$ \CS{} $>$ SQL $>$ Shell
+		%$>$ Matlab/Octave
+  \item Skills: Fast-learning, vim, git, *nix
+  \item Hobbies: Zhihu, Bilibili, Sanguosha; Cycling, Yoga
+  %Debug with eyes, Vim, Git 
+  % \item Platform: Linux
+  % \item Development: Web, xxx
+\end{itemize}
+
+% \section{Selected Projects}
+%  \datedsubsection{\textbf{Didi Dache (Xiaojukeji Inc.)} Beijing, China}{2016 -- Present}
+% \begin{itemize}
+%   \item \datedline{Document Rectification}{Oct.2014 - June.2015 (11 mos)}
+%   \item \datedline{Text Detection \& Recognization}{Nov.2013 - Jun.2014 (3 mos)}
+%   \item \datedline{Click Through Rate Predict}{Nov.2013 - Jun.2014 (3 mos)}
+% \end{itemize}
+% 
+% \section{\faInfo\ Miscellaneous}
+% \begin{itemize}[parsep=0.5ex]
+%   \item Blog: http://your.blog.me
+%   \item GitHub: https://github.com/username
+%   \item Languages: English - Fluent, Mandarin - Native speaker
+% \end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
