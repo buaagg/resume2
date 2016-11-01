@@ -1,0 +1,215 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{\textit{Compiled by \XeLaTeX{}}}
+\fancyfoot[R]{Last Modified: \today}
+\fancyfoot[C]{}
+\fancyhead{}
+
+\usepackage{ruby}
+\renewcommand{\rubysep}{-0.1ex}
+
+\newcommand{\awardline}[3]{\par \hspace{0em}\rlap{\textit{#1}} \hspace{.25\textwidth}\rlap{#2} \hfill #3 \par}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Qingwen GUAN (\ruby{管}{カン}\,\ruby{清文}{キヨフミ})}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in email address
+\contactInfo{qingwen.guan@outlook.com}{(+86) 134 0115 7995}{http://lnked.in/qingwen}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+%\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
+
+% Experiences表示经历可数，经验不可数
+\section{\faUsers\ Long-term Experiences}
+\datedsubsection{\textbf{DiDi Chuxing (Xiaoju Kuaizhi Inc.)} Beijing, China}{2016 -- Present}
+\role{Research and Develop Engineer}{DiDi Research}
+I am and have been working on many projects, such as
+Smart Order Distribution\,(智能分单),
+Dynamic Pricing\,(动态调价),
+Transport Capacity Dispatch\,(运力调度),
+Supply and Demand Forecast\,(供需预测),
+Passenger Subsidy\,(乘客补贴),
+Thermodynamic Diagram\,(热力图), 
+see the Selected Projects Session in the next page for more details.
+
+% data virtualization, and so on.
+
+\datedsubsection{\textbf{Microsoft Inc.} Beijing, China}{2013 -- 2015 (2 yrs)}
+\role{Research Intern}{Microsoft Research Asia}
+I have been working on many projects, 
+such as Document Rectification, Text Detection, Click Through Rate Prediction, Talking and Dancing Robot,
+see the Selected Projects Session in the next page for more details.
+
+\section{\faUser\ Short-term Experiences}
+
+\datedsubsection{\textbf{Google Inc.} London, United Kingdom}{Nov.\,2015 -- Jan.\,2016 (3 mos)}
+\role{Software Engineer}{Android Google Search App Team}
+I was fixing bugs and refactoring code for the Android App of Google Now.
+
+\datedsubsection{\textbf{Toutiao (Bytedance Inc.)} Beijing, China}{Jul.\,2015 -- Nov.\,2015 (4 mos)}
+\role{Software Engineer}{Internationalization Team}
+I was building the recommendation system module from scratch. 
+
+\datedsubsection{\textbf{J.P. Morgan Chase} Beijing, China}{Jul.\,2014 -- Oct.\,2014 (3 mos)}
+\role{Summer Analyst}{Quantitative Research Team}
+I was refactoring code and processing data for internal usage.
+
+\section{\faGraduationCap\ Educations}
+%\datedsubsection{\textbf{Beihang University (BUAA)}, Beijing, China}{2012 -- 2015 (3 yrs)}
+%\textit{Master} in Software Engineering.
+
+%\datedsubsection{\textbf{Beihang University (BUAA)}, Beijing, China}{2008 -- 2012 (4 yrs)}
+%\textit{Bachelor} in Software Engineering and Applied Mathematics(minor). 
+%\begin{itemize}
+%  \item High Scored Courses: C++(100), Algorithm(99), Advanced Math(99), Linear Algebra(99), \ldots
+%  \item I was recommended as postgraduate candidate exempted from GRE (Graduate Record Examination).
+%\end{itemize}
+
+\datedsubsection{\textbf{Beihang University (BUAA)}, Beijing, China}{2008 -- 2015 (7 yrs)}
+\textit{Master} in Software Engineering.
+\textit{Bachelor} in Software Engineering and Applied Mathematics(minor). 
+\begin{itemize}
+  \item High Scored Courses: C++(100), Algorithm(99), Advanced Math(99), Linear Algebra(99), \ldots
+  \item I was recommended as postgraduate candidate exempted from GRE (Graduate Record Examination).
+\end{itemize}
+
+\section{\faHeartO\ Honors and Awards}
+\awardline{\nth{27} Place}{ACM ICPC World Finals}{2013}
+\awardline{\nth{5} Place, Gold Medal}{ACM ICPC Asia Regionals}{2012}
+\awardline{Top 500}{Google Code Jam}{2013}
+\awardline{Top 500}{Facebook Hacker Cup}{2014}
+\awardline{Top 30}{Microsoft Beauty of Programming National Invition Contest}{2013}
+\awardline{2 out of 141}{Tencent Scholarship}{2010}
+\awardline{6 out of 141}{Outstanding Student Leader}{2008 -- 2009}
+\awardline{12 out of 141}{Outstanding Academic Performance Scholarship}{2008 -- 2009}
+  %\item \datedline{Beihang Sanguosha 3v3 Match, \textit{\nth{3} Place}}{2013}
+
+% \section{\faUsers\ Experience}
+% \datedsubsection{\textbf{FLAG Inc.} California, America}{2012 -- Present}
+% \role{Summer Intern}{Manager: xxx}
+% Brief introduction: xxx.
+% \begin{itemize}
+%   \item Implemented xxx feature
+%   \item Optimized xxx 5\%
+%   \item xxx
+% \end{itemize}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ Skills \& Miscellaneous}
+\begin{itemize}[parsep=0.5ex]
+  \item Languages: C++11 $>$ English $>$ Python2.7
+          	$>$ Java $>$ C\# $>$ SQL $>$ Bash
+		%$>$ Matlab/Octave
+  %\item Skills: Fast-learning, vim, git, *nix
+ % \item Hobbies: Zhihu, Bilibili, Sanguosha; Cycling, Yoga
+  %Debug with eyes, Vim, Git 
+  % \item Platform: Linux
+  % \item Development: Web, xxx
+\end{itemize}
+
+\section{Selected Projects at Didi Chuxing}
+\datedsubsection{\textbf{Smart Order Distribution (智能分单)}}{Jul.\,2016 -- Present}
+ \begin{itemize}
+    \item Learns data pattern from previously collected order info to improve matching rates between drivers and passengers. 
+          The scale effect of transport capacity is harnessed to maximize overall traffic efficiency and deliver the best travel experience.
+    \item We predicted the answer rate for the potential order when the passenger expresses the travel intent, 
+          while the result is currently used in dynamic pricing.
+ \end{itemize}
+
+\datedsubsection{\textbf{Dynamic Pricing (动态调价)} owner}{Aug.\,2016 -- Present}
+ \begin{itemize}
+    \item I have refactored to code and added monitor in C++ for Chauffeured Car(专车).
+ \end{itemize}
+
+\datedsubsection{\textbf{Passenger Subsidy (乘客补贴)}}{Jul.\,2016 -- Present}
+ \begin{itemize}
+    \item I built the framework from scratch for the Passenger Subsidy of Chauffeured Car(专车) with playing back support, 
+          500 lines of Google-styled C++11 code, thrift server, robust, load balance.
+ \end{itemize}
+
+\datedsubsection{\textbf{Transport Capacity Dispatch (运力调度)} owner}{Feb.\,2016 -- Jul.\,2016 (5 mos)}
+ \begin{itemize}
+    \item Based on the results of supply and demand forecast, 
+          all the available transport capacity can be mobilized on a large scale to achieve the best allocation of resources. 
+          It also aims to address potential and ongoing supply and demand gap and 
+          improves the platform efficiency while leveraging transport capacity to the fullest.
+    \item I redesigned and built the new framework for transport capacity dispatch service, 4000 lines of Google-styled C++ code, thrift server.
+ \end{itemize}
+
+\datedsubsection{\textbf{Thermodynamic Diagram a.k.a Heatmap (热力图)} owner}{Feb.\,2016 -- Jul.\,2016 (5 mos)}
+ \begin{itemize}
+    \item Combining analysis result of historical data with real-time order information, 
+          the diagram shows places where most orders are concentrated citywide. 
+          It aims to provide drivers with valuable reference of order positions 
+          so that the probability of calls to be received improves and drivers can minimize their driving time.
+    % \item Everyday, the heatmap is viewed $ 7 \times 10^6 $  times by $ 8 \times 10^5 $ drivers.
+    \item I added the function to apply configurable different filter on different cities, 
+          and launched heatmap in 9 new cities: 
+          Shenzhen(深圳), Wuhan(武汉), Tianjin(天津), Zhengzhou(郑州), Nanjing(南京), 
+          Chongqing(重庆), Changsha(长沙), Dalian(大连), Fuzhou(福州).
+ \end{itemize}
+
+\section{Selected Projects at Microsoft Research Asia}
+\datedsubsection{\textbf{Document Rectification}}{Oct.\,2013 -- June.\,2014 (11 mos)}
+ \begin{itemize}
+    \item Rectify Curved Documents via Robust PCA (Principal Component Analysis) Framework.
+    \item Reduce the running time from 100sec to 2sec, in 5,000 lines of C++11 code.
+ \end{itemize}
+
+\datedsubsection{\textbf{Click Through Rate Prediction}}{Aug.\,2013 -- Jun.\,2013 (3 mos)}
+ \begin{itemize}
+    \item Click Through Rate(CTR) Prediction of Bing Search via Logistic Regression(OWLQN) Algorithm.
+    \item 2TB data, 2K lines of C++ code, boost, openmp, MPI.
+ \end{itemize}
+
+\datedsubsection{\textbf{Text Detection \& Recognization}}{Nov.\,2013 -- Jun.\,2014 (3 mos)}
+ \begin{itemize}
+    \item Extract textline from raw image.
+    \item 1,000 lines of C++11 code, using opencv2.0 and tinyxml library.
+ \end{itemize}
+
+\datedsubsection{\textbf{Navigation Robot}}{May.\,2015 -- Jun.\,2015 (2 mos)}
+ \begin{itemize}
+    \item A navigation robot controlled by a smart phone.
+    I added the feature to allow the server to dynamically push runnable code to the phone,
+        controling its sensors and bluetooth modulo.
+ \end{itemize}
+
+\section{Selected Projects at Parttime}
+\datedsubsection{\textbf{Wechat Sync Robot} }{Jun.\,2016 -- Jun.\,2016 (1 mos)}
+ \begin{itemize}
+    \item A robot that sync the messages between wechat groups for Microsoft Research Asia Alumni.
+    \item It allows the 1000+ alumni to chat to each other as if we are in the same group.
+    \item It is developed basing on some open source solutions, hacking the web wechat API by packet sniffer.
+ \end{itemize}
+
+ 
+% \section{\faInfo\ Miscellaneous}
+% \begin{itemize}[parsep=0.5ex]
+%   \item Blog: http://your.blog.me
+%   \item GitHub: https://github.com/username
+%   \item Languages: English - Fluent, Mandarin - Native speaker
+% \end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}

@@ -1,0 +1,127 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
+\newcommand{\CC}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}}
+\newcommand{\CS}{C\nolinebreak\hspace{-.05em}\raisebox{.6ex}{\scriptsize\bf{\#}}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[L]{\textit{Compiled by \XeLaTeX{}}}
+\fancyfoot[R]{Last Modified: \today}
+\fancyfoot[C]{}
+\fancyhead{}
+
+\newcommand{\dateditem}[3]{%
+  \item {\par #1 \hspace{10pt} #2 \hfill #3 \par}%
+}
+
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{管清文}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in email address
+\contactInfo{qingwen.guan@outlook.com}{(+86) 134 0115 7995}{http://lnked.in/qingwen}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+%\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
+
+\section{\faUsers\ 长期工作经历}
+\datedsubsection{\textbf{滴滴出行}，北京}{2016 -- 现在}
+\role{滴滴研究院}{研发工程师}
+我在调度功能团队，主要负责运力调度、热力图、数据分析和可视化，并参与供需预测、动态补贴和精细化运营等项目。
+
+\datedsubsection{\textbf{微软}，北京}{2013 -- 2015 (2年)}
+\role{微软亚洲研究院}{实习生}
+我参与过多个项目，包括文档的矫正、文字的检测、点击率预估、聊天和跳舞机器人
+
+\section{\faUser\ 短期工作经历}
+
+\datedsubsection{\textbf{谷歌}, 英国伦敦}{2015年11月 -- 2016年1月 (3个月)}
+对Google Now这个安卓应用做代码重构和修bug.
+
+\datedsubsection{\textbf{今日头条}, 北京}{2015年7月 -- 2015年11月 (4个月)}
+我在国际化组，参与从头搭建推荐系统模块。
+
+\datedsubsection{\textbf{J.P. Morgan Chase} Beijing, China}{2014年7月 -- 2014年10月 (3个月)}
+我在量化研究组，为内部工具进行代码重构和数据处理。
+
+\section{\faGraduationCap\ 教育}
+\datedsubsection{\textbf{北京航空航天大学}, 软件工程(保研), 硕士}{2012 -- 2015 (3年)}
+
+\datedsubsection{\textbf{北京航空航天大学}, 软件工程(主修), 学士}{2008 -- 2012 (4年)}
+\begin{itemize}
+  \item 高分课程: C++(100), 算法(99), 高等数学(99), 线性代数(99), \ldots
+\end{itemize}
+\datedsubsection{\textbf{北京航空航天大学}, 应用数学(辅修), 学士}{2009 -- 2012 (3年)}
+
+
+\section{\faHeartO\ 获奖}
+\begin{itemize}[parsep=0.5ex]
+  \dateditem{ACM ICPC世界总决赛}{\textit{全球第27名}}{2013}
+  \dateditem{ACM ICPC亚洲区域赛}{\textit{亚洲第5名, 金牌}}{2012}
+  \dateditem{谷歌Code Jam}{\textit{全球前500名}}{2013}
+  \dateditem{Facebook Hacker Cup}{\textit{全球前500名}}{2014}
+  \dateditem{微软编程之美}{\textit{全国前30名}}{2013}
+  \dateditem{腾讯奖学金}{\textit{2/141}}{2010}
+  \dateditem{优秀班干部}{\textit{6/141}}{2008 -- 2009}
+  \dateditem{学习优秀奖学金}{\textit{12/141}}{2008 -- 2009}
+  \dateditem{三国杀3v3挑战赛}{\textit{全校第3名}}{2013}
+\end{itemize}
+
+% \section{\faUsers\ Experience}
+% \datedsubsection{\textbf{FLAG Inc.} California, America}{2012 -- Present}
+% \role{Summer Intern}{Manager: xxx}
+% Brief introduction: xxx.
+% \begin{itemize}
+%   \item Implemented xxx feature
+%   \item Optimized xxx 5\%
+%   \item xxx
+% \end{itemize}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ Skills \& Miscellaneous}
+\begin{itemize}[parsep=0.5ex]
+  \item Programming Languages: C++ $>$ English $>$ Python2 
+          	$>$ Java $>$ \CS{} $>$ SQL $>$ Shell
+		%$>$ Matlab/Octave
+  \item Skills: Fast-learning, vim, git, *nix
+  \item Hobbies: Zhihu, Bilibili, Sanguosha; Cycling, Yoga
+  %Debug with eyes, Vim, Git 
+  % \item Platform: Linux
+  % \item Development: Web, xxx
+\end{itemize}
+
+% \section{Selected Projects}
+%  \datedsubsection{\textbf{Didi Dache (Xiaojukeji Inc.)} Beijing, China}{2016 -- Present}
+% \begin{itemize}
+%   \item \datedline{Document Rectification}{Oct.2014 - June.2015 (11 mos)}
+%   \item \datedline{Text Detection \& Recognization}{Nov.2013 - Jun.2014 (3 mos)}
+%   \item \datedline{Click Through Rate Predict}{Nov.2013 - Jun.2014 (3 mos)}
+% \end{itemize}
+% 
+% \section{\faInfo\ Miscellaneous}
+% \begin{itemize}[parsep=0.5ex]
+%   \item Blog: http://your.blog.me
+%   \item GitHub: https://github.com/username
+%   \item Languages: English - Fluent, Mandarin - Native speaker
+% \end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}

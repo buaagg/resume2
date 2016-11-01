@@ -8,6 +8,9 @@ en:	clean xelatex resume.tex
 
 zh_CN:	clean xelatex resume-zh_CN.tex
 
+qingwen: qingwen.tex
+	xelatex qingwen.tex
+
 pdf:	clean $(PDFS)
 
 %.pdf:  %.tex
